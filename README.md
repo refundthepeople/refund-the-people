@@ -3,70 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wake Up — Ask the Real Questions</title>
+  <title>Truth Awakening — Questions & Answers</title>
   <style>
     body {
-      background: #111;
+      background-color: #121212;
       color: #eee;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
+      max-width: 720px;
+      margin: 50px auto;
+      padding: 20px;
     }
     h1 {
+      color: #e53935;
       text-align: center;
-      color: #ff3b3f;
       margin-bottom: 40px;
+      font-size: 2.5rem;
+      letter-spacing: 1.5px;
     }
-    h2 {
-      color: #ff3b3f;
-      margin-top: 30px;
-      margin-bottom: 10px;
-      font-size: 1.4rem;
+    .qa-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
-    p {
+    .qa-box {
+      border: 2px solid #e53935;
+      border-radius: 12px;
+      padding: 25px 30px;
+      background-color: #1e1e1e;
+      box-shadow: 0 0 15px #b71c1c;
+      transition: transform 0.3s ease;
+    }
+    .qa-box:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 25px #f44336;
+    }
+    .question {
+      font-weight: 700;
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+      color: #ff6f60;
+      border-bottom: 1.5px solid #ff6f60;
+      padding-bottom: 8px;
+    }
+    .answer {
+      font-weight: 400;
       font-size: 1.1rem;
-      margin-bottom: 25px;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #444;
-      margin: 40px 0;
+      line-height: 1.5;
+      color: #ddd;
     }
   </style>
 </head>
 <body>
 
-  <h1>Wake Up — Ask the Real Questions</h1>
+  <h1>Truth Awakening — Questions & Answers</h1>
 
-  <h2>Who truly benefits from the endless wars funded by your taxes?</h2>
-  <p>If not the citizens, then who? And what do they gain from your sacrifice?</p>
+  <div class="qa-container">
 
-  <hr />
+    <div class="qa-box">
+      <div class="question">Who really controls the flow of your money before you ever see it?</div>
+      <div class="answer">
+        It’s not your government, but shadowy financial institutions and corporate interests. Taxes are collected and funneled into wars, bailouts, and programs that enrich the elite—while the average citizen gets crumbs and surveillance.
+      </div>
+    </div>
 
-  <h2>Why is education underfunded while military spending breaks records every year?</h2>
-  <p>What kind of society prioritizes destruction over knowledge?</p>
+    <div class="qa-box">
+      <div class="question">Why do our elected officials prioritize corporate donors over their own voters?</div>
+      <div class="answer">
+        Because the system is designed to serve power, not people. Lobbyists spend billions to buy influence. Representatives become puppets, not leaders, ensuring the cycle of corruption remains unbroken.
+      </div>
+    </div>
 
-  <hr />
+    <div class="qa-box">
+      <div class="question">What if the “war on terror” was really a war on your freedoms and wealth?</div>
+      <div class="answer">
+        Endless military spending is a cover for expanding government control and profiting private defense contractors—while eroding civil liberties and normalizing fear to keep you compliant.
+      </div>
+    </div>
 
-  <h2>How much of your paycheck disappears before you even see it—and where does it really go?</h2>
-  <p>Have you ever received a clear, honest accounting?</p>
+    <div class="qa-box">
+      <div class="question">Why are vital public services underfunded while billions vanish in opaque government budgets?</div>
+      <div class="answer">
+        Because money is systematically redirected into black budgets and secret projects, away from schools, hospitals, and infrastructure—keeping citizens dependent and distracted.
+      </div>
+    </div>
 
-  <hr />
+    <div class="qa-box">
+      <div class="question">How long will you let invisible hands pull your strings before you cut the cords?</div>
+      <div class="answer">
+        Freedom begins with awareness and action. The moment you realize you’re a pawn is the moment you start reclaiming your power—through knowledge, refusal, and building alternatives.
+      </div>
+    </div>
 
-  <h2>Why do your representatives take millions from lobbyists yet claim to serve you?</h2>
-  <p>Is their loyalty to you, or to the system that pays them?</p>
-
-  <hr />
-
-  <h2>What happens if millions of people simply refuse to fund corruption?</h2>
-  <p>Is the power of your wallet the last true power you hold?</p>
-
-  <hr />
-
-  <h2>If freedom is your birthright, why does your government treat you like a taxpayer, not a citizen?</h2>
-  <p>When will you start demanding your full rights back?</p>
+  </div>
 
 </body>
 </html>
